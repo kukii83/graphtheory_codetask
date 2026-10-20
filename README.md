@@ -7,3 +7,12 @@ Group 5 Members:
 -I Gusti Agung Candra Nugraha/5025251169 (candranugraha576)
 
 -Hussein Mohammad Mahsun/5025251170 (TheDelightOFice)
+
+In this task we will be doing 3 coding tasks which is:
+- Travelling Salesman Problem
+- Chinese Postman Problem
+- The Knight's Tour
+
+- ### Prerequisites
+- Python 3.x interpreter installed
+- Standard Python built-in libraries
