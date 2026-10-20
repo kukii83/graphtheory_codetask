@@ -13,6 +13,6 @@ In this task we will be doing 3 coding tasks which is:
 - Chinese Postman Problem
 - The Knight's Tour
 
-- ### Prerequisites
+### Prerequisites
 - Python 3.x interpreter installed
 - Standard Python built-in libraries
