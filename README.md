@@ -19,6 +19,26 @@ In this task we will be doing 3 coding tasks which is:
 
 ### How to Run
 - **Travelling Salesman:**
+1. Prerequisites:
+   - Compiler (VSCode, or any that works with Python)
+   - Python 3.10 or above
+   - `pip` package manager
+2. Steps:
+   - download both `app.py` and `download_data.py` into one folder
+   - open VSCode
+   - download the dependencies needed with:
+     ```bash
+     pip install osmnx networkx geopandas folium streamlit streamlit-folium scikit-learn
+     ```
+   - run the `download_data.py` program:
+     ```bash
+     python download_data.py
+     ```
+   - Two files, `cache/surabaya_road.graphml` and `cache/schools_surabaya.geojson` should appear in your folder after that
+   - Open the website with:
+     ```bash
+     python -m streamlit run app.py
+     ```
 
 
 - **Chinese Postman:**
