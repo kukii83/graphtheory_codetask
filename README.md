@@ -51,13 +51,15 @@ In this task we will be doing 3 coding tasks which is:
      - Total Distance: `23.84 km`
      - Estimated Time: `47.7 mins`
      - Schools Visited: `29`
-     - Solver Runtime: `29.76 ms`
+     - Solver Runtime: `27.41 ms`
      - School Visiting Order (First 5 stops):
        1. SPPG Depot
        2. Sekolah Berkebutuhan Khusus Aditama (#23)
        3. SD Negeri Kalisari II (#21)
        4. TK, SD, SLTP Al - Azhar Kelapa Gading Surabaya (#19)
        5. Sekolah YPPI - 3 Surabaya (#6)
+       <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/72f50e86-4c79-49d3-8fe4-8bac4367472e" />
+
 
    Case 2: Surabaya City Center (Genteng / Tunjungan Area)
    - **Inputs:**
@@ -70,7 +72,7 @@ In this task we will be doing 3 coding tasks which is:
      - Estimated Time: `~44.9 mins`
      - Schools Visited: `27 schools`
      - Solver Runtime: `< 6.40 ms`
-     -School Visiting Order (First 5 stops):
+     - School Visiting Order (First 5 stops):
       1. SMK Kesehatan Nusantara (#6)
       2. SMA Trimurti (#7)
       3. SD Negeri Kaliasin 1 & 3 (#5)
@@ -88,6 +90,8 @@ In this task we will be doing 3 coding tasks which is:
    - **Outputs:**
      - Schools Visited: `0` (or `1`)
      - Status: Displays a warning banner `No schools found within this radius. Increase the radius.`
+     <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/be835b7d-3640-4b4c-8876-90fdc68f620b" />
+
 
 
 - **Chinese Postman:**
