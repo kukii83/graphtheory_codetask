@@ -99,16 +99,9 @@ In this task we will be doing 3 coding tasks which is:
 ```
 "python knightstour.py"
 ```
-3. Input the sample cases (see below) and you will get the output results
+3. Input the sample cases (see below) and you will get the output results\
 
-### Sample Cases
-- **Travelling Salesman:**
-
-
-- **Chinese Postman:**
-
-
-- **The Knight's Tour:**
+Sample Cases:
 1. Example from PPT slide:
    ```
    5 5
