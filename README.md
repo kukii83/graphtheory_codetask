@@ -19,11 +19,7 @@ In this task we will be doing 3 coding tasks which is:
 
 ### How to Run
 - **Travelling Salesman:**
-1. Prerequisites:
-   - Compiler (VSCode, or any that works with Python)
-   - Python 3.10 or above
-   - `pip` package manager
-2. Steps:
+1. Steps:
    - download both `app.py` and `download_data.py` into one folder
    - open VSCode
    - download the dependencies needed with:
@@ -39,7 +35,7 @@ In this task we will be doing 3 coding tasks which is:
      ```bash
      python -m streamlit run app.py
      ```
-3. Sample Cases & Outputs
+2. Sample Cases & Outputs
 
    Case 1: ITS Campus Vicinity (Standard Test Case)
    - **Inputs:**
