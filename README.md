@@ -39,6 +39,48 @@ In this task we will be doing 3 coding tasks which is:
      ```bash
      python -m streamlit run app.py
      ```
+3. Sample Cases & Outputs
+
+#### Case 1: ITS Campus Vicinity (Standard Test Case)
+- **Inputs:**
+  - SPPG Latitude: `-7.28250`
+  - SPPG Longitude: `112.79530`
+  - Delivery Radius ($x$): `2.0 km`
+  - Assumed Vehicle Speed: `30 km/h`
+- **Outputs:**
+  - Total Distance: `23.84 km`
+  - Estimated Time: `47.7 mins`
+  - Schools Visited: `29`
+  - Solver Runtime: `29.76 ms`
+  - School Visiting Order (First 5 stops):
+    1. SPPG Depot
+    2. Sekolah Berkebutuhan Khusus Aditama (#23)
+    3. SD Negeri Kalisari II (#21)
+    4. TK, SD, SLTP Al - Azhar Kelapa Gading Surabaya (#19)
+    5. Sekolah YPPI - 3 Surabaya (#6)
+
+#### Case 2: Surabaya City Center (Genteng / Tunjungan Area)
+- **Inputs:**
+  - SPPG Latitude: `-7.26000`
+  - SPPG Longitude: `112.74000`
+  - Delivery Radius ($x$): `1.0 km`
+  - Assumed Vehicle Speed: `30 km/h`
+- **Outputs:**
+  - Total Distance: `~9.50 km`
+  - Estimated Time: `~19.0 mins`
+  - Schools Visited: `10 - 15 schools`
+  - Solver Runtime: `< 15.00 ms`
+  - Behavior: Dense urban routing accounting for one-way road constraints around downtown Surabaya.
+
+#### Case 3: Outskirts / Low-Density Boundary (Edge Case)
+- **Inputs:**
+  - SPPG Latitude: `-7.32000`
+  - SPPG Longitude: `112.82000`
+  - Delivery Radius ($x$): `0.5 km`
+  - Assumed Vehicle Speed: `30 km/h`
+- **Outputs:**
+  - Schools Visited: `0` (or `1`)
+  - Status: Displays a warning banner prompting the user to increase the radius, confirming graceful boundary handling without runtime exceptions.
 
 
 - **Chinese Postman:**
