@@ -30,11 +30,20 @@ In this task we will be doing 3 coding tasks which is:
      ```bash
      python download_data.py
      ```
-   - Two files, `cache/surabaya_road.graphml` and `cache/schools_surabaya.geojson` should appear in your folder after that
+   - Two files, `cache/surabaya_road.graphml` and `cache/schools_surabaya.geojson` should appear in your folder after that, inside a folder named `cache`
    - Open the website with:
      ```bash
      python -m streamlit run app.py
      ```
+     Just in case:
+   - If `download_data.py` doesn't work, download the `cache.zip` file
+   - Extract the zip file, once you open it, you should see `cache/surabaya_road.graphml` and `cache/schools_surabaya.geoson` inside
+   - Keep those two inside the folder, put this `cache` folder inside the main project folder
+   - Open the website with:
+     ```bash
+     python -m streamlit run app.py
+     ```
+
 2. Sample Cases & Outputs
 
    Case 1: ITS Campus Vicinity (Standard Test Case)
