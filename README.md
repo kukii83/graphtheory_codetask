@@ -48,17 +48,17 @@ In this task we will be doing 3 coding tasks which is:
      - Delivery Radius ($x$): `2.0 km`
      - Assumed Vehicle Speed: `30 km/h`
    - **Outputs:**
-     - Total Distance: `23.84 km`
-     - Estimated Time: `47.7 mins`
-     - Schools Visited: `29`
-     - Solver Runtime: `27.41 ms`
-     - School Visiting Order (First 5 stops):
-       1. SPPG Depot
-       2. Sekolah Berkebutuhan Khusus Aditama (#23)
-       3. SD Negeri Kalisari II (#21)
-       4. TK, SD, SLTP Al - Azhar Kelapa Gading Surabaya (#19)
-       5. Sekolah YPPI - 3 Surabaya (#6)
-       <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/72f50e86-4c79-49d3-8fe4-8bac4367472e" />
+      - Total Distance: `23.84 km`
+      - Estimated Time: `47.7 mins`
+      - Schools Visited: `29`
+      - Solver Runtime: `27.41 ms`
+      - School Visiting Order (First 5 stops):
+         1. SPPG Depot
+         2. Sekolah Berkebutuhan Khusus Aditama (#23)
+         3. SD Negeri Kalisari II (#21)
+         4. TK, SD, SLTP Al - Azhar Kelapa Gading Surabaya (#19)
+         5. Sekolah YPPI - 3 Surabaya (#6)
+         <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/72f50e86-4c79-49d3-8fe4-8bac4367472e" />
 
 
    Case 2: Surabaya City Center (Genteng / Tunjungan Area)
