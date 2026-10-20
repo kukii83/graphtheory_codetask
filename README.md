@@ -66,11 +66,18 @@ In this task we will be doing 3 coding tasks which is:
      - Delivery Radius ($x$): `1.0 km`
      - Assumed Vehicle Speed: `30 km/h`
    - **Outputs:**
-     - Total Distance: `~9.50 km`
-     - Estimated Time: `~19.0 mins`
-     - Schools Visited: `10 - 15 schools`
-     - Solver Runtime: `< 15.00 ms`
-     - Behavior: Dense urban routing accounting for one-way road constraints around downtown Surabaya.
+     - Total Distance: `~22.45 km`
+     - Estimated Time: `~44.9 mins`
+     - Schools Visited: `27 schools`
+     - Solver Runtime: `< 6.40 ms`
+     -School Visiting Order (First 5 stops):
+      1. SMK Kesehatan Nusantara (#6)
+      2. SMA Trimurti (#7)
+      3. SD Negeri Kaliasin 1 & 3 (#5)
+      4. Yayasan Kemala Bhayangkari (#3)
+      5. SMP Kristen Petra 2 Surabaya (#27)
+     <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/080d8ccd-7cfb-4dfe-8e63-687ff2d1bd1c" />
+
 
    Case 3: Outskirts / Low-Density Boundary (Edge Case)
    - **Inputs:**
