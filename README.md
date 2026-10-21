@@ -2,11 +2,11 @@
 
 Group 5 Members:
 
--Maulana Anugra Putra/5025251159 (kukii83)
+- Maulana Anugra Putra/5025251159 (kukii83)
 
--I Gusti Agung Candra Nugraha/5025251169 (candranugraha576)
+- I Gusti Agung Candra Nugraha/5025251169 (candranugraha576)
 
--Hussein Mohammad Mahsun/5025251170 (TheDelightOFice)
+- Hussein Mohammad Mahsun/5025251170 (TheDelightOFice)
 
 In this task we will be doing 3 coding tasks which is:
 - Travelling Salesman Problem
@@ -17,8 +17,8 @@ In this task we will be doing 3 coding tasks which is:
 - Python 3.x interpreter installed
 - Standard Python built-in libraries
 
-### How to Run
-- **Travelling Salesman:**
+## How to Run
+### Travelling Salesman
 1. Steps:
    - download both `app.py` and `download_data.py` into one folder
    - open VSCode
@@ -98,11 +98,57 @@ In this task we will be doing 3 coding tasks which is:
      <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/be835b7d-3640-4b4c-8876-90fdc68f620b" />
 
 
+## Chinese Postman
 
-- **Chinese Postman:**
+1. Steps:
+   - download all the file of Chinese Postman into one folder
+   - open VSCode
+   - download the dependencies needed with:
+     ```bash
+     py -m pip install -r requirements.txt
+     ```
+   - Open the website with:
+     ```bash
+     py -m streamlit run app.py
+     ```
+
+2. Sample Cases & Outputs
+
+   Case 1: Offline demo grid (tick “Offline demo grid”)
+   - **Inputs:**
+     - SPPG Latitude: `-7.2575`
+     - SPPG Longitude: `112.7521`
+     - Delivery Radius ($x$): `1.5 km`
+     - Assumed Vehicle Speed: `60 km/h`
+   - **Outputs:**
+     <img width="1321" height="768" alt="image" src="https://github.com/user-attachments/assets/58549426-a770-4e25-912d-98e3b1550b63" />
+     <img width="1326" height="829" alt="image" src="https://github.com/user-attachments/assets/f1bb73d3-bf74-4faa-92f4-f8e1b44de30c" />
 
 
-- **The Knight's Tour:**
+   Case 2: Downtown, near Tugu Pahlawan
+   - **Inputs:**
+     - SPPG Latitude: `-7.2459`
+     - SPPG Longitude: `112.7378`
+     - Delivery Radius ($x$): `1.0 km`
+     - Assumed Vehicle Speed: `60 km/h`
+   - **Outputs:**
+     <img width="1314" height="757" alt="image" src="https://github.com/user-attachments/assets/a193010f-21a9-4f29-aef6-597630a7dfc0" />
+     <img width="1351" height="829" alt="image" src="https://github.com/user-attachments/assets/5c826bd9-9ea1-4eac-835b-d318ddac2423" />
+
+
+
+   Case 3: Surabaya Zoo (Kebun Binatang) area
+   - **Inputs:**
+     - SPPG Latitude: `-7.2954`
+     - SPPG Longitude: `112.7367`
+     - Delivery Radius ($x$): `3 km`
+     - Assumed Vehicle Speed: `60 km/h`
+   - **Outputs:**
+    <img width="1312" height="761" alt="image" src="https://github.com/user-attachments/assets/627709d5-f4f2-4118-9b98-686baa162c3f" />
+    <img width="1336" height="829" alt="image" src="https://github.com/user-attachments/assets/1acd76e7-5fdc-44c6-b10c-5dbd14041d3c" />
+
+
+## The Knight's Tour
 1. Clone this repo and open it in Visual Studio Code
 2. Open terminal and run:
 ```
