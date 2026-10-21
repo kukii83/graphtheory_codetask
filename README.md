@@ -191,4 +191,7 @@ Sample Cases:
 
 
 AI use:
+
 https://share.gemini.google/buzi1Nz823R4
+
+https://claude.ai/share/873a6c48-9303-4029-a130-e39243f38f6b
