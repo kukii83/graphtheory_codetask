@@ -188,3 +188,7 @@ Sample Cases:
    5 5
    9 9
    ```
+
+
+AI use:
+https://share.gemini.google/buzi1Nz823R4
